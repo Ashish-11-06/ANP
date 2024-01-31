@@ -1,6 +1,6 @@
 package operator;
 
-public class assignment {
+public class Assignment {
 
     public static void main(String[] args) {
         // Assigning a value to a variable using =

@@ -2,7 +2,7 @@ package Queu;
 import java.util.*;
 
 
-public class ex1 {
+public class Ex1 {
 
 	void dequeex() 
 	{
@@ -18,7 +18,7 @@ public class ex1 {
 	}
 
 	public static void main(String[] args) {
-		ex1 qe=new ex1();
+		Ex1 qe=new Ex1();
 		qe.dequeex();
 		
 		PriorityQueue<String> pq=new PriorityQueue<>();
@@ -35,10 +35,11 @@ public class ex1 {
 		{
 			System.out.println(itr.next());
 		}*/
-	pq.remove();
+		
+//	pq.remove(); // works like pq.poll
 	pq.poll();
 	System.out.println(pq);
-		// TODO Auto-generated method stub
+
 
 	}
 

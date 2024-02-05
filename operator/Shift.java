@@ -4,7 +4,7 @@ public class Shift {
 
     public static void main(String[] args) {
         int num1 = 10;
-        int num2 = -10;
+        
         
         // Left Shift Operator (<<)
         System.out.println("Left Shift Operator (<<)");

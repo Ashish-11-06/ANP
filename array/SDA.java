@@ -19,16 +19,16 @@ public class SDA {
     	  System.out.println(x);
       	}
       	
-//      Scanner sc =new Scanner(System.in);
-//      for(int i=0;i<5;i++)
-//      {
-//    	  System.out.println("Enter position "+(i+1)+" value");
-//    	  score[i]=sc.nextInt();
-//      }
-//      for(int i=0;i<5;i++)
-//      {
-//    	  System.out.println(score[i]);
-//      }
+      Scanner sc =new Scanner(System.in);
+      for(int i=0;i<5;i++)
+      {
+    	  System.out.println("Enter position "+(i+1)+" value");
+    	  score[i]=sc.nextInt();
+      }
+      for(int i=0;i<5;i++)
+      {
+    	  System.out.println(score[i]);
+      }
 	}
 
 }

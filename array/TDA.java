@@ -7,7 +7,7 @@ public class TDA {
 
 	public static void main(String[] args) {
 		int[][] matA=new int[2][2];
-		Scanner sc =new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		for(int i=0;i<2;i++)
 		{
 			for(int j=0;j<2;j++)

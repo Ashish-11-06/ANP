@@ -16,4 +16,5 @@ public  class Manager extends Employee {
 	{
 		System.out.println("CL,SL applicable");
 	}
+	
 }

@@ -23,7 +23,7 @@ public class TDA {
 			}
 			System.out.println();
 		}
-		
+		 
 		for(int x[]:matA)
 		{
 			for(int y:x)
@@ -31,7 +31,9 @@ public class TDA {
 				System.out.print(y+"\t");
 			}
 			System.out.println();
+			
 		}
+		sc.close();
 	}
 
 }

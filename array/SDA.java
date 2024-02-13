@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SDA {
 
 	public static void main(String[] args) {
-		//  TODO Auto-generated method stub
+	
       int marks[]= {30,23,40,45,10};
       int score[]=new int[5];
       for(int i=0;i<5;i++)
@@ -15,7 +15,7 @@ public class SDA {
       
       System.out.println("Enhanced for");
       	for(int x:marks)
-      	{
+      	{ 
     	  System.out.println(x);
       	}
       	
@@ -29,6 +29,7 @@ public class SDA {
       {
     	  System.out.println(score[i]);
       }
+      sc.close();
 	}
 
 }

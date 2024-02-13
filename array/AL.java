@@ -4,13 +4,15 @@ import java.util.*;
 
 public class AL {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) 
 	{
 		//generic
 		List<Integer> al=new ArrayList<>();
 		List<Integer> al1=new ArrayList<Integer>();
-		ArrayList<String> al3=new ArrayList<>();
+//		ArrayList<String> al3=new ArrayList<>();
 		//non generic
+		@SuppressWarnings("rawtypes")
 		List al2=new ArrayList<>();
 		
 		

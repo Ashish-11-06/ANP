@@ -16,16 +16,21 @@ public class Arithmatic
 			
 			sc.close();
 			
-			System.out.println("a/b=" +c);
+			System.out.println("a/b = " +c);
 			}
-		catch(ArithmeticException e)  
-			{
-			System.out.println("enter valid int");
-			}
-		catch(InputMismatchException f)  
-			{
-			System.out.println("enter valid input");
-			}
+//		catch(ArithmeticException e)  
+//		{
+//		System.out.println("enter valid integer");
+//		}
+//		catch(InputMismatchException e)
+//		{
+//		System.out.println("enter valid input");
+//		}
+		catch(InputMismatchException | ArithmeticException e)  
+		{
+		System.out.println("enter valid input :" + e.getMessage());
+		}
+
 		catch(Exception e) 
 			{
 			 System.out.println("error");
